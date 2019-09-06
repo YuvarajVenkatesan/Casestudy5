@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T08:13:59.658Z",
+        "line": 6,
+        "name": "user tries to proceed to payment without adding any item to the cart",
+        "description": "",
+        "id": "invalid-cart-options;user-tries-to-proceed-to-payment-without-adding-any-item-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25513871100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Alex has registered in to testme app",
+            "match": {
+              "location": "invalidcart.alex_has_registered_in_to_testme_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 649311200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Alex search a particular product like headphones",
+            "match": {
+              "location": "invalidcart.alex_search_a_particular_product_like_headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "try to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "invalidcart.try_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Testme app doesnt display the cart icon",
+            "match": {
+              "location": "invalidcart.testme_app_doesnt_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "invalid cart options",
+    "description": "",
+    "id": "invalid-cart-options",
+    "keyword": "Feature",
+    "uri": "classpath:Invalidcart/0cart.feature",
+    "tags": []
+  }
+]

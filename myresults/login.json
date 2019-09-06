@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T08:12:52.052Z",
+        "line": 15,
+        "name": "login",
+        "description": "",
+        "id": "login;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18096453800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want login",
+            "match": {
+              "location": "login.i_want_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148544600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 17
+                }
+              ],
+              "location": "login.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135437600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "login.i_enter_my_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9275324900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks login button",
+            "match": {
+              "location": "login.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7779800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be in homepage",
+            "match": {
+              "location": "login.i_should_be_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  I want to login to testme",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:logingin/login.feature",
+    "tags": []
+  }
+]

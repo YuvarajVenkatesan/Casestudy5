@@ -1,0 +1,105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T08:11:34.489Z",
+        "line": 15,
+        "name": "Search a product",
+        "description": "",
+        "id": "to-search-a-product;search-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22287501900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to login and search a product",
+            "match": {
+              "location": "searchproduct.i_want_to_login_and_search_a_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8626146400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login \"Lalitha\" and \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "searchproduct.I_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147351500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "search a product by typing \"Headphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Headphone\"",
+                  "offset": 27
+                }
+              ],
+              "location": "searchproduct.search_a_product_by_typing(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 838415900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click find details button",
+            "match": {
+              "location": "searchproduct.click_find_details_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7447439100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "products searched should be displayed",
+            "match": {
+              "location": "searchproduct.products_searched_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "to search a product",
+    "description": "  I want to search a product after logged in",
+    "id": "to-search-a-product",
+    "keyword": "Feature",
+    "uri": "classpath:searchproduct/searchproduct.feature",
+    "tags": []
+  }
+]
